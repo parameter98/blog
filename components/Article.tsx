@@ -9,7 +9,7 @@ export default function Article({article_title,
   article_description,
   article_thumbnail}: article_data) {
   return(
-    <div className="snap-center">
+    <div id="Article">
       <button style={{width:200, height: 200}}>
         <Image 
           className="dark:invert"
@@ -17,7 +17,7 @@ export default function Article({article_title,
           alt="Next.js Logo"
           width={200}
           height={180}
-          style={{maxHeight:200}}
+          style={{minHeight: 180, maxHeight:200}}
         />
         <p>{article_title}</p>
       </button>
