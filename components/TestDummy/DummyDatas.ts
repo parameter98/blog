@@ -144,9 +144,73 @@ export let dummmy2: articles_data = {
       article_title: '비품재고 결제 건 안내',
       article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
       article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '실험방',
+      article_date: '2024-05-20',
+      article_username: 'ㅇㅇ',
+      article_title: '시설관리대장',
+      article_description: '시설관리 내용~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '실험방',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '비품재고 결제 건 안내',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '실험방',
+      article_date: '2024-05-20',
+      article_username: 'ㅇㅇ',
+      article_title: '시설관리대장',
+      article_description: '시설관리 내용~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '실험방',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '비품재고 결제 건 안내',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '실험방',
+      article_date: '2024-05-20',
+      article_username: 'ㅇㅇ',
+      article_title: '시설관리대장',
+      article_description: '시설관리 내용~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '실험방',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '비품재고 결제 건 안내',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '실험방',
+      article_date: '2024-05-20',
+      article_username: 'ㅇㅇ',
+      article_title: '시설관리대장',
+      article_description: '시설관리 내용~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '실험방',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '비품재고 결제 건 안내',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
     }
   ]
 }
 
-export let dummyarray1: articles_data[] = [dummmy1,dummmy2];
+export let dummyarray1: articles_data[] = [dummmy1,dummmy2,dummmy2,dummmy2,dummmy2,dummmy2,dummmy2];
 

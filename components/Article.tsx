@@ -10,10 +10,10 @@ export default function Article({article_title,
   article_thumbnail}: article_data) {
   return(
     <div>
-      <button style={{width:200, height: 120}}>
+      <button style={{width:200, height: 200}}>
         <Image 
           className="dark:invert"
-          src="/image.png"
+          src={Math.random()>0.5? "/image.png":"/vercel.svg"}
           alt="Next.js Logo"
           width={200}
           height={180}

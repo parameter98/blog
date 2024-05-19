@@ -1,7 +1,9 @@
+"use client";
 import classes from "./Styles/Articles.module.css";
 import Article from "./Article";
 import type { articles_data } from "./Struct/articles_data";
-import { article_data } from './Struct/article_data';
+import useHorizontalScroll from "./library/useSideScroll";
+
 
 
 export default function Articles({
@@ -10,13 +12,11 @@ export default function Articles({
 }: articles_data) 
 { 
   
-  // articles_list를 통해서 Article 컴포넌트를 찍어내는 함수 만들것.
-  
   return (
     <>
     <p>{articles_title}</p>
-    <div>
-      <ul className={classes.articlesAlign+""+"whitespace-nowrap overflow-x-auto flex"}>
+    <div >
+      <ul ref={useHorizontalScroll()} className={classes.articlesAlign+""+"whitespace-nowrap overflow-x-scroll scrollbar-hide flex"}>
         {articles_list.map((elem)=>(
           <Article 
           article_category={elem.article_category}
