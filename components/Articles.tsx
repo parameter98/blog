@@ -16,7 +16,7 @@ export default function Articles({
     <>
     <p>{articles_title}</p>
     <div >
-      <ul ref={useHorizontalScroll()} className={classes.articlesAlign+""+"whitespace-nowrap overflow-x-scroll scrollbar-hide flex"}>
+      <ul ref={useHorizontalScroll()} className={classes.articlesAlign+""+"whitespace-nowrap overflow-x-scroll scrollbar-hide flex snap-x"}>
         {articles_list.map((elem)=>(
           <Article 
           article_category={elem.article_category}

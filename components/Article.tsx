@@ -9,7 +9,7 @@ export default function Article({article_title,
   article_description,
   article_thumbnail}: article_data) {
   return(
-    <div>
+    <div className="snap-center">
       <button style={{width:200, height: 200}}>
         <Image 
           className="dark:invert"
