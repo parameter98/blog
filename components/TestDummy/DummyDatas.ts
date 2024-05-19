@@ -18,6 +18,110 @@ export let dummmy1: articles_data = {
       article_title: '응애몬스터 출현',
       article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
       article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
+    },
+    {
+      article_category: '자취',
+      article_date: '2024-05-20',
+      article_username: 'dd',
+      article_title: '응애몬스터 출현',
+      article_description: '응애~~~~~~~~~~~~~~~~~~~~~~',
+      article_thumbnail: 'www.imagelink.com'
     }
   ]
 }

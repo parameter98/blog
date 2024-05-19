@@ -10,14 +10,14 @@ export default function Article({article_title,
   article_thumbnail}: article_data) {
   return(
     <div>
-      <button>
+      <button style={{width:200, height: 120}}>
         <Image 
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
+          className="dark:invert"
+          src="/image.png"
           alt="Next.js Logo"
-          width={180}
-          height={120}
-          priority
+          width={200}
+          height={180}
+          style={{maxHeight:200}}
         />
         <p>{article_title}</p>
       </button>

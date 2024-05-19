@@ -16,7 +16,7 @@ export default function Articles({
     <>
     <p>{articles_title}</p>
     <div>
-      <ul className={classes.articlesAlign}>
+      <ul className={classes.articlesAlign+""+"whitespace-nowrap overflow-x-auto flex"}>
         {articles_list.map((elem)=>(
           <Article 
           article_category={elem.article_category}
