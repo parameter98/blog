@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Articles from "./Articles";
 import {dummyarray1} from"./TestDummy/DummyDatas"; 
+import ToTopButton from './ToTopButton';
 
 // homepage 에서 필요한 articles 구조체 http로 가져와서 articles 배열을 각각 생성하도록.
 
@@ -15,6 +16,7 @@ export default function Homepage() {
           articles_list={elem.articles_list}
         />
       ))}
+      <ToTopButton />
     </div>
   );
 }

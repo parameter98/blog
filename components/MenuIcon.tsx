@@ -2,7 +2,7 @@ export default function MenuIcon(props: any) {
   return (
     <svg
       {...props}
-      className="stroke-current"
+      className=""
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
