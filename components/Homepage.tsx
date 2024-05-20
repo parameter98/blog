@@ -7,7 +7,7 @@ import {dummyarray1} from"./TestDummy/DummyDatas";
 export default function Homepage() {
 
   return (
-    <div id="Homepage">
+    <div id="Homepage" className="px-10">
       <Header />
       {dummyarray1.map((elem)=>(
         <Articles 
