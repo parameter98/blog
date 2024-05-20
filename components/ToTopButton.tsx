@@ -3,6 +3,8 @@ import { Button } from "@nextui-org/button";
 import MenuIcon from './MenuIcon';
 
 export default function ToTopButton() {
+  
+
   function onClicked(){
     window.scrollTo({top:0,behavior:'smooth'});
   }
