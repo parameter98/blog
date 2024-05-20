@@ -15,9 +15,9 @@ export default function Article({article_title,
           className="dark:invert"
           src={Math.random()>0.5? "/image.png":"/vercel.svg"}
           alt="Next.js Logo"
-          width={200}
-          height={180}
-          style={{minHeight: 180, maxHeight:200}}
+          width={450}
+          height={300}
+          style={{minHeight: 180, maxHeight:200, objectFit:'cover'}}
         />
         <p className="text-xl">{article_title}</p>
       </button>
