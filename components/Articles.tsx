@@ -14,7 +14,7 @@ export default function Articles({
   
   return (
     <>
-    <p>{articles_title}</p>
+    <p className="text-2xl">{articles_title}</p>
     <div >
       <ul ref={useHorizontalScroll()} className={classes.articlesAlign+""+"whitespace-nowrap overflow-x-scroll scrollbar-hide flex"}>
         {articles_list.map((elem)=>(

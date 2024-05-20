@@ -9,8 +9,8 @@ export default function Article({article_title,
   article_description,
   article_thumbnail}: article_data) {
   return(
-    <div id="Article">
-      <button style={{width:200, height: 200}}>
+    <div id="Article" className="grid place-content-center">
+      <button className="grid place-content-center" style={{width:500, height: 300}}>
         <Image 
           className="dark:invert"
           src={Math.random()>0.5? "/image.png":"/vercel.svg"}
@@ -19,7 +19,7 @@ export default function Article({article_title,
           height={180}
           style={{minHeight: 180, maxHeight:200}}
         />
-        <p>{article_title}</p>
+        <p className="text-xl">{article_title}</p>
       </button>
     </div>
   );
