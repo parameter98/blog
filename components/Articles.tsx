@@ -4,7 +4,7 @@ import Article from "./Article";
 import type { articles_data } from "./Struct/articles_data";
 import useHorizontalScroll from "./library/useSideScroll";
 
-
+// TODO 여러 사이즈의 Articles를 사용할 수 있도록 Article과 Articles에 변수 핸들링.
 
 export default function Articles({
   articles_title,
@@ -13,9 +13,9 @@ export default function Articles({
 { 
   
   return (
-    <>
+    <div id="Articles">
     <p className="text-2xl">{articles_title}</p>
-    <div >
+    <div>
       <ul ref={useHorizontalScroll()} className={classes.articlesAlign+""+"whitespace-nowrap overflow-x-scroll scrollbar-hide flex"}>
         {articles_list.map((elem)=>(
           <Article 
@@ -29,6 +29,6 @@ export default function Articles({
         ))}
       </ul>
     </div>
-    </>
+    </div>
   );
 }
