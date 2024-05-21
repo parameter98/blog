@@ -5,7 +5,7 @@ export let dummmy1: articles_data = {
   articles_list: [
     {
       article_category: '자취',
-      article_date: '2024-05-20',
+      article_date: '2024-05-29',
       article_username: 'ㅇㅇ',
       article_title: '최저가 디퓨저 모음',
       article_description: '디퓨저 내용~~~~~~~~~~~~',

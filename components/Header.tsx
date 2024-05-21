@@ -5,10 +5,9 @@ import {debounce} from "lodash";
 //import * as _ from 'lodash';
 
 export default function Header() {
-
   const [isMobile,setIsMobile] = useState(false);
-
-  //debounce 구현. arrow function을 사용해야지만 작동함.
+  
+  //debounce 구현. arrow function을 사용해야지만 작동함. 이 때 Arrowfunction 의 렉시컬 스코핑에 의해 ( 선언될 당시지점에서의 상위 스코프 )상위스코프는 undefined 
   const resizeHandler = debounce(()=>{
       if (window.innerWidth > 1100) {
         setIsMobile(false);
@@ -16,8 +15,7 @@ export default function Header() {
       else {
         setIsMobile(true);
       }
-      console.log(window.innerWidth);
-    },300);
+    },200);
   
 
   useEffect(()=>{
