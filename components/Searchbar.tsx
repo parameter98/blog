@@ -1,7 +1,7 @@
 import { category_dummy_data_array } from "./TestDummy/categorydatasdummy";
 import MenuIcon from "./MenuIcon";
 import SearchIcon from "./SearchIcon";
-import Modal from "./Modal";
+import MenuModal from "./Modal";
 import ProfileModal from "./ProfileModal";
 import {Avatar} from "@nextui-org/avatar";
 import {Input} from "@nextui-org/input";
@@ -21,7 +21,7 @@ export default function Searchbar() {
             </Button>
           </PopoverTrigger>
           <PopoverContent>
-            <Modal data={category_dummy_data_array}/>
+            <MenuModal data={category_dummy_data_array}/>
           </PopoverContent>
         </Popover>
         <Input type="search" placeholder="Search" className="px-5 flex-1" classNames={{
@@ -49,7 +49,7 @@ export default function Searchbar() {
           </Button>
         </PopoverTrigger>
         <PopoverContent>
-          <Modal data={category_dummy_data_array}/>
+          <MenuModal data={category_dummy_data_array}/>
         </PopoverContent>
       </Popover>
     </div>
