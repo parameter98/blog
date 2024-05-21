@@ -8,8 +8,9 @@ import ToTopButton from './ToTopButton';
 export default function Homepage() {
 
   return (
-    <div id="Homepage" className="px-10">
+    <div id="Homepage" className="px-10 z-0">
       <Header />
+      
       {dummyarray1.map((elem)=>(
         <Articles 
           articles_title={elem.articles_title}

@@ -1,17 +1,28 @@
 import MenuIcon from "./MenuIcon";
 import SearchIcon from "./SearchIcon";
+import MenuModal from "./MenuModal";
+import ProfileModal from "./ProfileModal";
 import {Avatar} from "@nextui-org/avatar";
 import {Input} from "@nextui-org/input";
 import { Button } from "@nextui-org/button";
+import {Popover, PopoverTrigger, PopoverContent} from "@nextui-org/popover";
 
 
 export default function Searchbar() {
   return(
     <div className="flex flex-1" id="Searchbar">
       <div className="flex flex-1 px-1 pr-5">
-        <Button className="flex-initial border-2 rounded-md border-current" >
-          <MenuIcon className="h-6 w-6" />
-        </Button>
+        
+        <Popover>
+          <PopoverTrigger>
+            <Button className="flex-initial border-2 rounded-md border-current" >
+              <MenuIcon className="h-6 w-6" />
+            </Button>
+          </PopoverTrigger>
+          <PopoverContent>
+            <MenuModal />
+          </PopoverContent>
+        </Popover>
         <Input type="search" placeholder="Search" className="px-5 flex-1" classNames={{
           inputWrapper: [
             "shadow-xl",
@@ -30,9 +41,16 @@ export default function Searchbar() {
           <SearchIcon className="text-gray-500 dark:text-gray-400" />
         </Button>
       </div>
-      <Button isIconOnly className="border-2 rounded-full border-current" >
-        <Avatar radius="md" size="lg" color="danger" src="https://i.pravatar.cc/150?u=a04258114e29026708c"/>
-      </Button>
+      <Popover>
+        <PopoverTrigger>
+          <Button isIconOnly className="border-2 rounded-full border-current" >
+            <Avatar radius="md" size="lg" color="danger" src="https://i.pravatar.cc/150?u=a04258114e29026708c"/>
+          </Button>
+        </PopoverTrigger>
+        <PopoverContent>
+          <ProfileModal />
+        </PopoverContent>
+      </Popover>
     </div>
   );
 }
