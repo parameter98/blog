@@ -1,5 +1,4 @@
 "use client";
-import classes from "./Styles/Articles.module.css";
 import Article from "./Article";
 import type { articles_data } from "./Struct/articles_data";
 import useHorizontalScroll from "./library/useSideScroll";

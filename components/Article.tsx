@@ -15,6 +15,7 @@ export default function Article({article_title,
   article_thumbnail}: article_data) {
 
     //TODO Image 컴포넌트의 src 부분을 데이터로부터 가져오는 것으로 변경해야함.
+    // Image의 사이즈 또한 반응형으로 변경하면 좋을것이다. style에 전달하는 객체를 if? a:b 삼항연산자로 바꿔버리는 등
   return(
     <div id="Article" className="grid place-content-center drop-shadow-2xl">
       <Button className="grid justify-items-center border border-transparent rounded-2xl" style={{width:600, height: 350}}>
